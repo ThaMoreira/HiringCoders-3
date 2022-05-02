@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*color: rgb(226, 105, 176);*/
+    color: wheat;
+    /*font-family: 'Indie Flower', cursive;
+    font-family: 'Ms Madi', cursive;
+    /*font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;*/
+
+}
+
+ul{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 200;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    /*background: url(img/bc12.jpeg) no-repeat center center fixed;
+    background-size: cover;*/
+    /*background: linear-gradient( 180deg, #7F7FD5, #86A8E7, #91EAE4  );*/
+    /*background: linear-gradient( 180deg, #314755, #26a0da);*/
+    /*background: linear-gradient( 360deg, #36D1DC, #5B86E5);*/
+    
+    background-image: linear-gradient(to right top, #5b86e5, #0c9def, #00b1ef, #00c2e7, #36d1dc);
+}
+
+.container{
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 100px;
+    font-family: 'Ms Madi', cursive;
+    
+}
+.container h5 {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+
+}
+
+.container #about p{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.form input{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form button{
+    width: 10%;
+    margin: 0 auto;
+    color: #00b1ef;
+}
