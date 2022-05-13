@@ -11,12 +11,14 @@
 
 }
 
-ul{
+header ul{
     list-style: none;
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
     font-style: italic;
     font-weight: 200;
+    display: flex;
+    margin: 10;
 
 }
 
@@ -25,48 +27,127 @@ a{
 }
 
 body{
-    /*background: url(img/bc12.jpeg) no-repeat center center fixed;
+    /*background: url(img/background-games-apps-mobile-development-cartoon-nature-landscape-forest-mountains-vector-illustration-your-82873966.jpg) no-repeat center center fixed;
     background-size: cover;*/
-    /*background: linear-gradient( 180deg, #7F7FD5, #86A8E7, #91EAE4  );*/
-    /*background: linear-gradient( 180deg, #314755, #26a0da);*/
-    /*background: linear-gradient( 360deg, #36D1DC, #5B86E5);*/
-    
-    background-image: linear-gradient(to right top, #5b86e5, #0c9def, #00b1ef, #00c2e7, #36d1dc);
+    /*background: url(img/istockphoto-1214012320-170667a.jpg) no-repeat center center fixed;
+    background-size: cover;*/
+    background: url(img/sunrise.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 70px;
+}
+
+header h5{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 200;
+    margin-left: 5px;
+}
+
+header ul li{
+    padding: 20px;
+}
+
+header ul li a{
+    transition: 300ms;
+}
+
+header ul li a:hover{
+    color: darkslateblue;
 }
 
 .container{
     text-align: center;
 }
 
-.container h1 {
-    font-size: 100px;
-    font-family: 'Ms Madi', cursive;
+
+.container h3 {
+    font-size: 40px;
+    font-family: 'Indie Flower', cursive;
+   /* color: palevioletred;*/
+    color: darkslateblue;
+    
     
 }
+
 .container h5 {
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
+    color: darkslateblue;
+    margin-top: 10px;
+    margin-bottom: 15px;
 
 }
 
 .container #about p{
-    max-width: 600px;
+    max-width: 400px;
     margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: darkslateblue;
 }
 
-.form{
-    width: 40%;
-    margin: 0 auto;
+#arrow{
+    font-size: 40px;
+    cursor: pointer;
+    animation: blink 1s steps(5, start) infinite;
+
 }
 
-.form input{
-    width: 50%;
-    margin: 0 auto;
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
 }
 
-.form button{
-    width: 10%;
-    margin: 0 auto;
-    color: #00b1ef;
+#animation{
+    animation: blink 1s steps(5, start) infinite;
+    transition: 500ms;
 }
+
+.rotate{
+    transform: rotate(180deg);
+    transition: 300ms;
+}
+
+.active{
+    display: block !important;
+}
+
+footer{ 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;	
+}
+
+footer .sobre h3{
+    font-size: larger;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+footer .sobre ul {
+    display: flex;
+    list-style: none;
+    font-size: medium;
+    display: flex;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    
+}
+
+
+
