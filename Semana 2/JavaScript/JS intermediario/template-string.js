@@ -1,5 +1,17 @@
-let nome = 'thais';
-let sobreNome = 'Moreira'
-let profissao = 'Dev jr'
+let nome = 'Thais';
+let sobreNome = 'Moreira Teixeira';
+let profissao = 'Dev jr';
 
-console.log()
+//sem template
+console.log(
+    "Meu nome é: " + 
+    nome + 
+    " " + 
+    sobreNome + 
+    " e sou " + 
+    profissao
+);
+
+//com template
+console.log(`Olá meu nome é ${nome} ${sobreNome} e sou ${profissao}`);
+
